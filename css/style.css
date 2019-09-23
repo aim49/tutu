@@ -377,3 +377,97 @@ font-size: 1em;
   color: #011B56;
   transition: ease-in .6s;
 }
+
+  /* **************************************** blgo page csss******************************************************** */
+  .contact-landing{
+    background-image: linear-gradient(rgba(0,0,0,.500),rgba(0,0,0,.500)), url(../img/bathroom-cabinet-contemporary-1571462.jpg);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-bottom: .3rem solid #011B56;
+  }
+  .contact-landing h3{
+    color: #011B56;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+    .contact-landing p{
+  color: #fff;
+  font-size: 1em;
+  }
+
+  /* ******************** contact us page************************* */
+  /* contact us */
+/* contact details from section */
+.c-contact-form{
+	padding: 4rem 0;
+}
+
+.form-spacing{
+	padding-top: 3rem;
+}
+.feedback-input {
+	color:white;
+	font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: transparent;
+	border:2px solid #011B56;
+	transition: all 0.3s;
+	padding: .8rem;
+	margin-bottom: 15px;
+	width:100%;
+	box-sizing: border-box;
+	outline:0;
+  }
+  
+  .feedback-input:focus {
+	   border:2px solid #011B56; }
+  
+  textarea {
+	height: 150px;
+	line-height: 150%;
+	resize:vertical;
+  }
+  
+  [type="submit"] {
+	width: 100%;
+	background:#011B56;
+	border-radius:0;
+	border:0;
+	cursor:pointer;
+	color:white;
+	font-size:.8rem;
+	padding-top:.5rem;
+	padding-bottom:.5rem;
+	transition: all 0.3s;
+	margin-top:-4px;
+	font-weight:700;
+	border: .2rem solid #011B56;
+  }
+  [type="submit"]:hover {
+	   background:#fff;
+	   color: #011B56;
+	   border: .2rem solid #011B56;
+	 }
+/* right side form contact information */
+.icons-detail{
+	padding-top: 3rem;
+}
+.icons-detail i{
+	color: #011B56;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+}
+.icons-detail p{
+	color: gray;
+}
+/* map-border */
+.map-border{
+	border-top: .5rem  solid #011B56;
+
+}
+
