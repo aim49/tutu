@@ -521,7 +521,7 @@ ul.filters > li.active > a{
   background-color: #011B56;
 }
 
-.card{
+.card-o{
   position: relative;
   margin-bottom: 50px;
   color: #000;
@@ -600,4 +600,99 @@ h4.title{
 .card-btn:hover{
   background-color: #011B56;
   color: #fff;
+}
+
+/* ***************  about us page  ************************* */
+.about-intro{
+  padding: 5rem 0;
+}
+.about-intro .line{
+ background-color: #011B56;
+ height: .2rem;
+ width: 10rem;
+ margin-bottom: 2rem;
+}
+
+.about-intro h3{
+  padding-top: 2rem;
+  color: #011B56;
+  font-weight: 900;
+  font-size: 2.5em;
+  
+
+}
+.about-intro p{
+  font-size: 1em;
+  font-weight: 400;
+  color: gray;
+}
+.about-intro img{
+  width: 350px;
+  height: 360px;
+}
+
+
+
+/* mision vission and values */
+.mv{
+  padding: 5rem 0;
+  background-color: rgba(119, 136, 153, 0.397);
+}
+.card-mv, .card-header{
+background-color: transparent!important;
+border: none!important;
+padding: 0!important;
+margin-bottom: 5px;
+
+}
+.card-mv{
+  box-shadow: 0 2px 10px 0 rgba(1, 27, 86, 0.315);
+
+}
+.card-mv  .btn-link{
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+}
+.card-mv .card-body{
+  background: rgba(255, 247, 247, 0.541);
+  color: #011B56;
+  font-size: .9rem;
+  padding: 2rem 1rem;
+
+}
+.card-mv .btn-link::after{
+  content: '\2212';
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  right: 15px;
+  top: 11px;
+  position: absolute; 
+  background-color: rgba(1, 27, 86, 0.486);
+} 
+.card-mv .btn-link.collapsed:after{
+  content: '\002b';
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  right: 15px;
+  top: 11px;
+  position: absolute; 
+}
+.card-mv .btn-link::before{
+  content: '';
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  background: #fff;
+  z-index: 1;
+  transform: rotate(45deg);
+  left: 30px;
+  top: 46px;
 }
