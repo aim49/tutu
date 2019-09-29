@@ -696,3 +696,45 @@ margin-bottom: 5px;
   left: 30px;
   top: 46px;
 }
+
+/* ************************ invest****************************** */
+
+.invest-landing{
+  background-image: linear-gradient(rgba(0,0,0,.500),rgba(0,0,0,.500)), url(../img/bathroom-cabinet-contemporary-1571462.jpg);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-bottom: .3rem solid #011B56;
+}
+.invest-landing h3{
+  color: #011B56;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.invest-landing p{
+color: #fff;
+font-size: 1em;
+}
+/* why invest
+ */
+ .why_invest{
+   padding: 6rem 0;
+ }
+ .why_invest .invest-text h3
+{
+  color: #011B56;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+}
+.why_invest .invest-text h3 span{
+  color: #434e5e;
+}
+.why_invest .invest-text p{
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1em;
+  padding-bottom: .4rem!important;
+}
