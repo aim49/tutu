@@ -722,6 +722,12 @@ font-size: 1em;
  .why_invest{
    padding: 6rem 0;
  }
+ .why_invest .invest-text img{
+   margin: 2rem auto;
+   height: 200px;
+   width: 100px;
+
+ }
  .why_invest .invest-text h3
 {
   color: #011B56;
@@ -737,4 +743,101 @@ font-size: 1em;
   text-align: center;
   font-size: 1em;
   padding-bottom: .4rem!important;
+}
+
+.why_invest .invest-text a i{
+  font-size: 1.5rem;
+  padding: 0 .3rem;
+  color: #434e5e;
+}
+/* reason to invest */
+
+.reason-invest{
+  background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 5rem 0;
+}
+
+.reason-invest .card-invest{
+  position: relative;
+  height: 380px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  overflow: hidden;
+}
+.reason-invest .card-invest::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: calc(-100% + 4px);
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 1;
+  transition: 0.5s ease-in-out; 
+}
+.reason-invest .card-invest:hover::before{
+  bottom: 0;
+}
+.reason-invest .card-invest:nth-child(1)::before{
+  background: #4169e1;
+}
+.reason-invest .card-invest:nth-child(2)::before{
+  background: #1bcaff;
+}
+.reason-invest .card-invest:nth-child(3)::before{
+  background: #4169e1;
+}
+
+
+.reason-invest .card-invest div{
+  position: relative;
+  z-index: 2;
+
+}
+.reason-invest .card-invest div h2{
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  transition: 0.5s;
+  font-weight: 900;
+  color: #fff;
+}
+.reason-invest .card-invest div p{
+  margin-bottom: .9rem;
+  transition: 0.5s;
+  color: #fff;
+}
+.reason-invest .card-invest div a{
+  margin-top: 20px;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.5s;
+  background: #fff;
+  color: #777;
+  padding: 6px 10px;
+  font-weight: 600;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, .05)
+}
+
+.reason-invest .card-invest:hover div h2,
+.reason-invest .card-invest:hover div p{
+  color: #fff;
+}
+
+/* subscribe with us and set you self economically free */
+
+.invest-subsciption{
+  background-image:linear-gradient(rgba(65, 105, 225, 0.524),rgba(0,0,0,.500)), url(../img/apple-blur-branch-257840.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 7rem 0;
+}
+.invest-subsciption .text h3{
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
 }
