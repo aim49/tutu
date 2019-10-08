@@ -136,8 +136,7 @@
 
   /* m-services */
   #m-services{
-      padding: 4rem 0;
-      background-color: rgb(231, 228, 228, .45);
+      padding:0 0 4rem 0;
   }
 
   /* #m-services .service-pad{
@@ -149,30 +148,128 @@
   #m-services .service-pad .services-tag{
       padding: 1.5rem .8rem;
       border: .1rem solid gray;
-      background: #011B56;
       text-align: center;
   }
-  #m-services .service-pad .services-tag .icon img{
+
+  #m-services .service-pad .services-tag .icon i{
       border-radius: 100%;
-      border: .4rem solid white;
+      color: #011B56;
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
   }
 
-  #m-services .service-pad .services-tag .icon{
-      height: 100px;
-      width: 100px;
-      margin: 1rem auto;
-      
-  }
+ 
 
   #m-services .service-pad .services-tag h3{
-      color: #fff;
-      font-weight: bold;
+      font-weight: 900;
      margin-bottom: .5rem;
-
+     color: #011B56;
+     font-size: 2rem;
   }
+
+
+
 
   #m-services .service-pad .services-tag p{
-      color: #fff;
       font-family: 'Roboto', sans-serif;
+      color: gray;
+      font-size: .9rem;
   }
 
+/* heading main  */
+
+.headings{
+  padding: 2rem 0 1rem 0;
+}
+.headings h3{
+  font-weight: bold;
+ font-size: 2.5rem;
+ text-align: center;
+ color: #011B56;
+}
+.headings p{
+  color: gray;
+  font-size: .9rem;
+  text-align: center;
+}
+
+
+  /* services scss */
+  #man-services{
+    background-color: #f5f6fa;
+    padding: 2rem 0;
+  }
+
+  .box{
+    position: relative;
+   background: #000;
+   height: 400px;
+  margin: 1rem 0;
+
+  }
+  .content{
+    position: absolute;
+    top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: grid;
+   align-items: center;
+   padding: 20px;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+  }
+
+  .content a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color:#fff;
+    transition: .5s;
+  }
+
+  .content a:hover{
+    color: #000;
+    background: #fff;
+  }
+  
+  .box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transition: 1s;
+
+  }
+
+  .box:hover img{
+    clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+  }
+
+
+  /* get a quote froms us  */
+  #get-quote{
+    background-image: url(bg-about.jpg);
+    padding: 8rem 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  #get-quote .text-quote h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+
+  #get-quote .text-quote p{
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+  }
