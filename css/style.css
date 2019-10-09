@@ -845,3 +845,73 @@ padding: 5rem 0;
   text-align: center;
   font-weight: 700;
 }
+
+/* mission cards */
+
+
+#blue-section{
+  padding: 3rem;
+  background-color:  #011B56;
+  filter: blur(1px)
+}
+#simple-cards{
+  margin:-4rem 0 4rem 0;
+  
+}
+
+#simple-cards .card{
+  padding: 5%;
+  text-align: center;
+  border-radius: 0!important;
+  margin: 1rem;
+}
+#simple-cards .card H3{
+  font-weight: bold;
+  color: #011B56;
+  font-size: 2rem;
+}
+#simple-cards .card p{
+color: gray;
+
+}
+#simple-cards .about-the-c .line-ip{
+  background-color: #011B56;
+  height: .2rem;
+  width: 10rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+#simple-cards .about-the-c{
+  margin: 4rem 0;
+}
+#simple-cards .about-the-c h3{
+  font-weight: bold;
+  color: #011B56;
+  font-size: 2rem;
+}
+
+#simple-cards .about-the-c p{
+  color: gray;
+}
+
+#simple-cards .about-the-c a{
+  background-color: #011B56;
+  color: white;
+  padding: .5rem 2.5rem;
+  text-decoration: none;
+  transition: all 300ms ease;
+  border: .1rem solid #011B56;
+  margin-top: 1rem;
+}
+#simple-cards .about-the-c a:hover{
+  background-color: white;
+  color: #011B56;
+  border: .1rem solid #011B56;
+}
+
+#simple-cards .about-the-c img{
+  margin: 4.5rem 0;
+  width: 100%;
+  height: 200px;
+  box-shadow: 1px 1px 10px #011B56;
+}
