@@ -618,7 +618,6 @@ h4.title{
 }
 
 .about-intro h3{
-  padding-top: 2rem;
   color: #011B56;
   font-weight: 900;
   font-size: 2.5em;
@@ -637,70 +636,49 @@ h4.title{
 
 
 
-/* mision vission and values */
-.mv{
-  padding: 5rem 0;
-  background-color: rgba(119, 136, 153, 0.397);
-}
-.card-mv, .card-header{
-background-color: transparent!important;
-border: none!important;
-padding: 0!important;
-margin-bottom: 5px;
+/* vision mission and values */
 
+#mvv{
+  padding: 3rem 0 3rem 0;
+  background-color: #011B56;
 }
-.card-mv{
-  box-shadow: 0 2px 10px 0 rgba(1, 27, 86, 0.315);
-
+#mvv .border{
+  padding: .5rem;
+  text-align: center;
 }
-.card-mv  .btn-link{
-  width: 100%;
-  height: 60px;
-  color: #fff;
+#mvv .border .heading h3{
   font-weight: bold;
-  text-align: left;
-  text-decoration: none;
-}
-.card-mv .card-body{
-  background: rgba(255, 247, 247, 0.541);
   color: #011B56;
-  font-size: .9rem;
-  padding: 2rem 1rem;
-
-}
-.card-mv .btn-link::after{
-  content: '\2212';
-  width: 35px;
-  font-size: 25px;
-  text-align: center;
-  border-radius: 5px;
-  right: 15px;
-  top: 11px;
-  position: absolute; 
-  background-color: rgba(1, 27, 86, 0.486);
-} 
-.card-mv .btn-link.collapsed:after{
-  content: '\002b';
-  width: 35px;
-  font-size: 25px;
-  text-align: center;
-  border-radius: 5px;
-  right: 15px;
-  top: 11px;
-  position: absolute; 
-}
-.card-mv .btn-link::before{
-  content: '';
-  height: 25px;
-  width: 25px;
-  position: absolute;
-  background: #fff;
-  z-index: 1;
-  transform: rotate(45deg);
-  left: 30px;
-  top: 46px;
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1rem;
 }
 
+#mvv .border .body-text p{
+  font-weight: normal;
+  color: gray;
+  font-size: 1rem;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 1.3rem;
+}
+
+#mvv .center-card{
+  background-color: #011B56;
+}
+#mvv .center-card .heading h3{
+  color: white!important;
+}
+#mvv .center-card .body-text p{
+  color: white;
+}
+
+
+
+
+
+
+/* end of mission vision and values */
 /* ************************ invest****************************** */
 
 .invest-landing{
@@ -1062,6 +1040,47 @@ color: gray;
 }
 
 
+/* get invest section */
+
+#get-invest{
+  padding: 7rem 0;
+  background-image: url(../img/architecture-carpet-chair-245208.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+#get-invest .texts h4{
+  font-size: 2em;
+  color: #011B56;
+  font-weight: bold;
+padding-bottom: 2rem;
+}
+
+#get-invest .texts p{
+  color: gray;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#get-invest .texts a{
+  font-size: 1.2em;
+  color: white;
+  background-color: #011B56;
+  border: .1rem solid #011B56;
+  padding: .4rem 1rem;
+  transition: all 300ms ease-in-out;
+}
+#get-invest .texts a:hover{
+  background-color: white;
+  color: #011B56;
+}
+
+
+/* end of invest section */
+
+
 
 /* focus areas list of services provided by the website  */
 #focus-area{
@@ -1150,6 +1169,58 @@ transition: .5s ease-in;
 
 }
 
+
+/* testmonials */
+/* testimonials section*/
+#testimonials{
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+	background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+}
+#customers-testimonials{
+	padding: 2rem 0;
+}
+.testimonial img{
+	width: 159px;
+	height: 159px;
+	margin: 0 auto 0 auto;
+	border: 2px solid white;
+	padding: 5px;
+	margin-bottom: 13px;
+	border-radius: 100%;
+}
+blockquote p{
+	padding: 2rem 0 0 0;
+	font-weight: 300;
+}
+blockquote p span{
+	color: #011B56;;
+}
+
+.testimonial-author p{
+	/* color: #fff; */
+	font-size: 1.1rem;
+	
+}
+.testimonial-author p strong{
+	display: block;
+	color: #011B56;;
+
+}
+.testimonial-author span{
+	font-weight: 300;
+}
+.header-3{
+	/* color: #fff; */
+	text-transform: uppercase;
+}
+.slick-slide{
+	height: auto!important;
+}
+.slick-prev:before, .slick-next:before{
+	color: #011B56;!important;
+}
+/* end of testimonials */
 
 /* foooter css
  */
