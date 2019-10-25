@@ -1362,3 +1362,51 @@ blockquote p span{
   }
  }
  
+
+ /* breadcrumb */
+ .breadcrumb-item+.breadcrumb-item::before{
+   color: white!important;
+ }
+ .crumb a{
+   color: white;
+ }
+
+ .crumb span{
+   color : rgba(255, 255, 255, 0.864)!important;
+ }
+
+ /* end of that bread crumb  */
+
+
+ /* single product section css */
+
+#single-service{
+  padding: 4rem 0;
+}
+
+#single-service .img-service img{
+  width: 100%;
+  height: 60vh;
+  border: .2rem solid #011B56;
+}
+#single-service .texts-service {
+  padding-left: 2rem;
+}
+#single-service .texts-service h3{
+  color: #011B56;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#single-service .texts-service p{
+  color: #333;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+ /* end of single product section */
