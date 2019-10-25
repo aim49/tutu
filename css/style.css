@@ -839,11 +839,99 @@ padding: 5rem 0;
   background-attachment: fixed;
   padding: 7rem 0;
 }
+.invest-subsciption .text .wrap{
+  width: 80%;
+  margin: auto;
+}
 .invest-subsciption .text h3{
   color: #fff;
   font-size: 2em;
   text-align: center;
   font-weight: 700;
+}
+.invest-subsciption .text p{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #011B56;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #222;
+}
+
+.invest-subsciption .form-invest{
+  border: .1rem solid #011B56;
+  padding: 2rem 1rem;
+  margin: 2.5rem 0;
+  background-color: rgba(0, 0, 0, 0.585);
+}
+.invest-subsciption .form-invest .invest-input{
+  width: 100%;
+  height: 2.2rem;
+  border-radius: 0;
+}
+.invest-subsciption .form-invest .invest-input{
+  padding-left: 1rem;
+  font-size:1rem;
+  font-weight: bold;
+  color: #000;
+  border: .1rem solid #011B56;
+}
+
+.invest-subsciption .form-invest input{
+  margin-top: 1rem;
+}
+.invest-subsciption .form-invest #category{
+  width: 100%;
+  height: 2.2rem;
+  padding-left: 1rem;
+  font-weight: bold;
+  color: gray;
+}
+.invest-subsciption .form-invest textarea{
+  width: 100%;
+  padding: 0;
+
+}
+
+.invest-subsciption .form-invest .top{
+  margin-top: 2rem;
+}
+.invest-subsciption .form-invest .invest-btn{
+  padding: .4rem 2.5rem;
+  background-color: transparent;
+  border: .2rem solid white;
+  color: white;
+transition: all 300ms ease-in-out;
+}
+
+.invest-subsciption .form-invest .invest-btn:hover{
+  padding: .4rem 2.5rem;
+  background-color: #011B56;
+  border: .2rem solid white;
+  color: white;
+
+}
+
+
+
+/* documents  sybscribe*/
+#subscribe-page{
+  padding: 3rem 0;
+}
+
+#subscribe-page .text .wrap{
+  width: 80%;
+  margin: auto;
+}
+#subscribe-page .text .wrap h4{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #011B56;
+}
+#subscribe-page .text .wrap p{
+  font-size: 1.2rem;
+  color: gray;
+  text-align: center;
 }
 
 /* mission cards */
@@ -1034,7 +1122,7 @@ transition: .5s ease-in;
 @media (max-width: 767.98px) {
   #header{
     background-color: #011B56;
-    color: #fff;
+    /* color:  */
     font-size: .8rem;
     padding: .3rem;
     text-align: center!important;
