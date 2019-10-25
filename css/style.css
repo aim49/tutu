@@ -1396,7 +1396,7 @@ blockquote p span{
   color: #011B56;
   font-weight: bold;
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 #single-service .texts-service p{
@@ -1404,9 +1404,64 @@ blockquote p span{
   font-size: 1.2rem;
 }
 
-
+#single-service .texts-service h4{
+  font-weight: bold;
+  font-size: 1.6em;
+  color: #011B56;
+  border-bottom: #011B56 .2rem  solid;
+}
 
 
 
 
  /* end of single product section */
+
+ /* product for sale */
+#for-sale{
+  padding: 4rem 0;
+}
+#for-sale .p-sell {
+  height: 300px;
+}
+
+#for-sale .p-sell img{
+  width: 100%;
+  height: 250px;
+  border: .2rem solid #011B56;
+}
+
+
+#for-sale .p-sell .body-text{
+  text-align: center;
+  
+}
+
+#for-sale .p-sell .body-text h3{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #011B56;
+}
+
+#for-sale .p-sell .body-text a{
+  color: white;
+  font-weight: bold;
+  border: .1rem solid #011B56;
+  background-color: #011B56;
+  padding: .3rem 2rem;
+  transition: all 300ms ease-in-out;
+}
+
+#for-sale .p-sell .body-text a:hover{
+  color: #011B56;
+  background-color: white;
+
+}
+
+#for-sale .border{
+  margin-bottom: 3rem!important;
+}
+
+
+
+
+ /* end of for sale page */
