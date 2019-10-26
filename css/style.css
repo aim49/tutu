@@ -1534,6 +1534,17 @@ transition: all 300ms ease-in-out;
   height: 280px;
 }
 
+#gallery-zone .text-details
+{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+#gallery-zone .text-details p {
+  font-weight: bold;
+  color: gray;
+
+}
 
  /* end of project images and galleries
   */
