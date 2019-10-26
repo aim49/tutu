@@ -31,6 +31,7 @@
     color: #fff;
     font-size: .8rem;
     padding: .3rem;
+  
 }
 #header a{
     color: #fff;
@@ -1484,3 +1485,55 @@ blockquote p span{
 
 
  /* end of for sale page */
+
+
+
+ /* shoppong cart */
+
+ .shopping-cart{
+  margin-top: 7rem;
+}
+.shopping-cart .table{
+}
+.shopping-cart .table input[type=number]{
+  width: 40px;
+}
+
+.color-change{
+  color: #011B56;
+}
+
+.shopping-cart .add-more a{
+  background-color: #011B56;
+  color: white;
+  padding: .4rem 2rem;
+  border: .1rem solid #011B56;
+  font-weight: bold;
+transition: all 300ms ease-in-out;
+}
+
+.shopping-cart .add-more a:hover{
+  background-color: transparent;
+  color: #011B56;
+}
+
+ /* end of shoppign cart */
+
+
+ /* project image galleries created by darksdie  */
+#gallery-zone{
+  margin-top: 4rem;
+}
+#gallery-zone .gallery{
+  box-sizing: border-box;
+  padding: .1rem!important;
+  background-color: #011B56;
+}
+#gallery-zone .gallery img{
+  width: 100%;
+  height: 280px;
+}
+
+
+ /* end of project images and galleries
+  */
