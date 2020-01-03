@@ -724,10 +724,13 @@ font-size: 1em;
  .why_invest{
    padding: 6rem 0;
  }
+ .why_invest .invest-text{
+   text-align: center;
+ }
  .why_invest .invest-text img{
    margin: 2rem auto;
    height: 200px;
-   width: 100px;
+   width: 200px;
 
  }
  .why_invest .invest-text h3
@@ -737,9 +740,7 @@ font-size: 1em;
   font-size: 2em;
   text-align: center;
 }
-.why_invest .invest-text h3 span{
-  color: #434e5e;
-}
+
 .why_invest .invest-text p{
   margin-top: 1.5rem;
   text-align: center;
@@ -1238,7 +1239,7 @@ blockquote p span{
 	height: auto!important;
 }
 .slick-prev:before, .slick-next:before{
-	color: #011B56;!important;
+	color: #011B56!important;
 }
 /* end of testimonials */
 
@@ -1547,4 +1548,164 @@ transition: all 300ms ease-in-out;
 }
 
  /* end of project images and galleries
+  */
+
+
+  /* popular brands */
+
+#popular-brands{
+  padding: 5rem 0;
+}
+
+#popular-brands .brand-box{
+  margin-bottom: 2rem;
+}
+
+
+#popular-brands .brand-box img{
+  height: 220px;
+}
+
+#popular-brands .view-more .more-brands{
+  text-decoration: none;
+  color: white;
+  background-color: #011B56;
+  border:2px solid #011B56;
+  transition: all 300ms ease-in-out;
+  padding: .5rem 2rem;
+}
+
+#popular-brands .view-more .more-brands:hover{
+  background-color: white;
+  color: #011B56;
+
+}
+
+
+
+  /* end of popular brands */
+
+  /* bootstrap dropdown on hover */
+
+
+  .dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+  }
+  
+  .dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .nav-tabs .dropdown-menu,
+  .nav-pills .dropdown-menu,
+  .navbar .dropdown-menu {
+    margin-top: 0;
+  }
+  
+  .navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+  }
+  
+  .navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+  }
+
+
+
+  /* end of bootstrap ddropdown on hover */
+
+
+
+/* single post page
+ */
+
+#services-post{
+  padding: 3rem 0;
+
+}
+
+#services-post .related-product h4{
+  border-bottom: 2px solid #121212;
+  padding-bottom: .7rem;
+  font-weight: 700;
+  color: rgb(15, 15, 15);
+  font-size: 1.2em;
+  color: #011B56;
+}
+
+
+
+#services-post .services-heading h4{
+  border-bottom: 2px solid #121212;
+  padding-bottom: .7rem;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #011B56;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+#services-post .related-product .product-list{
+  padding-top: 2rem;
+}
+
+
+
+
+#services-post .related-product .product-list ul li{
+  list-style: none;
+}
+
+
+#services-post .related-product .product-list ul li a{
+display: block;
+color: #011B56;
+text-decoration: none;
+transition: all 300ms ease-in-out;
+
+
+}
+
+
+#services-post .related-product .product-list ul li a:hover{
+color: black;
+font-weight: bold;
+}
+
+#services-post  .services-heading .product-img{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#services-post  .services-heading .product-img img{
+  height: 45vh;;
+}
+
+#services-post  .services-heading .services-description h2{
+  font-size: 1.5em;
+  color: #011B56;
+  padding-bottom: .5rem;
+}
+
+ /* end of single post page
   */
